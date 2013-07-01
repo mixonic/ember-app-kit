@@ -2,4 +2,4 @@ var Routes = function() {
   // routes/resources
 };
 
-export = Routes;
+export default Routes;
