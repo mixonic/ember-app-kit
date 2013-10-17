@@ -1,7 +1,7 @@
 module.exports = {
   app: {
     src: [
-      'app/**/*.js'
+      'tmp/public/assets/app.js'
     ],
     options: { jshintrc: '.jshintrc' }
   },
@@ -16,7 +16,7 @@ module.exports = {
 
   tests: {
     src: [
-      'tests/**/*.js',
+      'tmp/public/tests/tests.js'
     ],
     options: { jshintrc: 'tests/.jshintrc' }
   },

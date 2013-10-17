@@ -4,13 +4,13 @@ module.exports = {
     files: [{
       expand: true,
       cwd: 'app/',
-      src: '**/*.js',
+      src: '**/*.ts',
       dest: 'tmp/javascript/app'
     },
     {
       expand: true,
       cwd: 'tests/',
-      src: ['**/*.js', '!test_helper.js', '!test_loader.js', '!vendor/**/*.js'],
+      src: ['**/*.ts'],
       dest: 'tmp/javascript/tests/'
     }]
   },

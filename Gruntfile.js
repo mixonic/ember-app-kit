@@ -164,7 +164,7 @@ module.exports = function(grunt) {
   grunt.registerTask('buildScripts', filterAvailable([
                      'coffee',
                      'copy:javascriptToTmp',
-                     'transpile',
+                     'simple-typescript',
                      'jshint',
                      'concat_sourcemap'
                      ]));

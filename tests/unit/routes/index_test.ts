@@ -1,4 +1,9 @@
-import Index from 'appkit/routes/index';
+/// <reference path="../../../app/definitions/ember/ember.d.ts"/>
+/// <reference path="../../../app/definitions/qunit/qunit.d.ts"/>
+/// <reference path="../../../app/definitions/qunit-globals.d.ts"/>
+/// <reference path="../../../app/routes/index.ts"/>
+
+import Index = require('app/routes/index');
 
 var route;
 module("Unit - IndexRoute", {

@@ -1,3 +1,9 @@
+/// <reference path="../../app/definitions/ember/ember.d.ts"/>
+/// <reference path="../../app/definitions/qunit/qunit.d.ts"/>
+/// <reference path="../../app/definitions/qunit-globals.d.ts"/>
+/// <reference path="../../app/definitions/ember-testing-globals.d.ts"/>
+/// <reference path="../test_helper.d.ts"/>
+
 var App;
 
 module('Acceptances - Index', {
