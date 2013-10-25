@@ -7,7 +7,11 @@ module.exports = {
       return path.replace(new RegExp('^tmp/javascript/'), '');
     },
     files: [{
-      "tmp/public/tests/tests.js": ["tmp/javascript/tests/**/*.ts"]
+      expand: true,
+      cwd: 'tmp/javascript/tests/',
+      src: "**/*.ts",
+      dest: "tmp/public/tests/",
+      ext: '.js'
     }]
   },
   "app": {
@@ -16,7 +20,11 @@ module.exports = {
       return path.replace(new RegExp('^tmp/javascript/'), '');
     },
     files: [{
-      "tmp/public/assets/app.js": ["tmp/javascript/app/**/*.ts"]
+      expand: true,
+      cwd: 'tmp/javascript/app/',
+      src: "**/*.ts",
+      dest: "tmp/public/assets/",
+      ext: '.js'
     }]
   }
 };
