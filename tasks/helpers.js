@@ -5,6 +5,7 @@ var grunt = require('grunt'),
 // List of package requisits for tasks
 var taskRequirements = {
   'coffee': ['grunt-contrib-coffee'],
+  'simple-typescript': ['grunt-simple-typescript'],
   'compass': ['grunt-contrib-compass'],
   'sass': ['grunt-sass', 'grunt-contrib-sass'],
   'less': ['grunt-contrib-less'],
