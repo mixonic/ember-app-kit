@@ -1,6 +1,15 @@
-import Index from 'appkit/routes/index';
+/// <reference path="../../../app/routes/index.ts"/>
+import Index = require('app/routes/index');
 
-var route;
+declare var module: any;
+declare var test: any;
+declare var isolatedContainer: any;
+declare var deepEqual: any;
+declare var ok: any;
+declare var Ember: any;
+
+var route: any;
+
 module("Unit - IndexRoute", {
   setup: function(){
     var container = isolatedContainer([
@@ -13,7 +22,7 @@ module("Unit - IndexRoute", {
 
 test("it exists", function(){
   ok(route);
-  ok(route instanceof Ember.Route);
+  ok(route instanceof Index);
 });
 
 test("#model", function(){

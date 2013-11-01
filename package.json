@@ -1,6 +1,6 @@
 {
   "name": "app-kit",
-  "namespace": "appkit",
+  "namespace": "app",
   "version": "0.0.0",
   "private": true,
   "directories": {
@@ -45,6 +45,7 @@
     "load-grunt-config": "~0.5.0",
     "bower": "~1.2.7",
     "grunt-cli": "~0.1.9",
-    "grunt-preprocess": "~3.0.1"
+    "grunt-preprocess": "~3.0.1",
+    "grunt-simple-typescript": "git://github.com/201-created/grunt-simple-typescript.git"
   }
 }

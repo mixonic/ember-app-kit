@@ -1,5 +1,5 @@
 import Resolver from 'resolver';
-import registerComponents from 'appkit/utils/register_components';
+import registerComponents from 'app/utils/register_components';
 
 var App = Ember.Application.extend({
   LOG_ACTIVE_GENERATION: true,
@@ -7,7 +7,7 @@ var App = Ember.Application.extend({
   LOG_TRANSITIONS: true,
   LOG_TRANSITIONS_INTERNAL: true,
   LOG_VIEW_LOOKUPS: true,
-  modulePrefix: 'appkit', // TODO: loaded via config
+  modulePrefix: 'app', // TODO: loaded via config
   Resolver: Resolver.default
 });
 

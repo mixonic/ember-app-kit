@@ -1,4 +1,4 @@
-import Application from 'appkit/app';
+import Application from 'app/app';
 
 function startApp(attrs) {
   var App;
